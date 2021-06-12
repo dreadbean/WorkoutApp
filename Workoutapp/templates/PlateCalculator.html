@@ -1,0 +1,30 @@
+{% extends "home.html" %}
+{% block content %}
+
+<div style=text-align:center style=font-family:Times New Roman, Times, serif;>
+    
+    
+    <form action="#" method="post">
+        <p>HOW MUCH YOU DOIN?: </p>
+        <p><input type="number" id="weight" name="weight"></p>
+        <p><input type="submit" value="submit"></p>
+    
+    </form>
+    <p>
+        Amount of 45: {{plates}}  
+    </p>
+    <p>
+        Amount of 35: {{plate35}}
+    </p>
+    <p>
+        Amount of 25: {{plate25}}
+    </p>
+    <p>
+        Amount of 15: {{plate15}}
+    </p>
+    <p>
+        Amount of 10: {{plate10}}
+    </p>
+</div>
+<img src="plates.png" alt="ALL PLATES" width="500" height="333">
+{% endblock %}
